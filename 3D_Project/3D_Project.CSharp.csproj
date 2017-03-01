@@ -81,7 +81,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MouseOverColor.cs" />
     <Compile Include="Assets\Scripts\PatronPathing.cs" />
+    <Compile Include="Assets\Scripts\Scripts\AdvancedCharacter.cs" />
+    <Compile Include="Assets\Scripts\Scripts\AnimatedItem.cs" />
+    <Compile Include="Assets\Scripts\Scripts\BasicAction.cs" />
+    <Compile Include="Assets\Scripts\Scripts\DialogStarter.cs" />
+    <Compile Include="Assets\Scripts\Scripts\DialogTree.cs" />
+    <Compile Include="Assets\Scripts\Scripts\Floating.cs" />
+    <Compile Include="Assets\Scripts\Scripts\Health.cs" />
+    <Compile Include="Assets\Scripts\Scripts\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\Scripts\Pickup.cs" />
+    <Compile Include="Assets\Scripts\Scripts\SaveData.cs" />
+    <Compile Include="Assets\Scripts\Scripts\Weapon.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
