@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: 4f20627ba5931644f845909644770469
+timeCreated: 1488388434
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: FloorBed
+    100002: FloorEnt
+    100004: FloorKit
+    100006: FloorLib
+    100008: //RootNode
+    100010: ShortWall005
+    100012: ShortWall1
+    100014: ShortWall2
+    100016: ShortWall3
+    100018: ShortWall4
+    100020: Wall005
+    100022: Wall3
+    100024: WallBBed
+    100026: WallBEnt
+    100028: WallBKit
+    100030: WallBLib
+    100032: WallFBed
+    100034: WallFEnt
+    100036: WallFKit
+    100038: WallFLib
+    100040: WallLBed
+    100042: WallLEnt
+    100044: WallLKit
+    100046: WallLLib
+    100048: WallRBed
+    100050: WallREnt
+    100052: WallRKit
+    100054: WallRLib
+    400000: FloorBed
+    400002: FloorEnt
+    400004: FloorKit
+    400006: FloorLib
+    400008: //RootNode
+    400010: ShortWall005
+    400012: ShortWall1
+    400014: ShortWall2
+    400016: ShortWall3
+    400018: ShortWall4
+    400020: Wall005
+    400022: Wall3
+    400024: WallBBed
+    400026: WallBEnt
+    400028: WallBKit
+    400030: WallBLib
+    400032: WallFBed
+    400034: WallFEnt
+    400036: WallFKit
+    400038: WallFLib
+    400040: WallLBed
+    400042: WallLEnt
+    400044: WallLKit
+    400046: WallLLib
+    400048: WallRBed
+    400050: WallREnt
+    400052: WallRKit
+    400054: WallRLib
+    2300000: FloorBed
+    2300002: FloorEnt
+    2300004: FloorKit
+    2300006: FloorLib
+    2300008: ShortWall005
+    2300010: ShortWall1
+    2300012: ShortWall2
+    2300014: ShortWall3
+    2300016: ShortWall4
+    2300018: Wall005
+    2300020: Wall3
+    2300022: WallBBed
+    2300024: WallBEnt
+    2300026: WallBKit
+    2300028: WallBLib
+    2300030: WallFBed
+    2300032: WallFEnt
+    2300034: WallFKit
+    2300036: WallFLib
+    2300038: WallLBed
+    2300040: WallLEnt
+    2300042: WallLKit
+    2300044: WallLLib
+    2300046: WallRBed
+    2300048: WallREnt
+    2300050: WallRKit
+    2300052: WallRLib
+    3300000: FloorBed
+    3300002: FloorEnt
+    3300004: FloorKit
+    3300006: FloorLib
+    3300008: ShortWall005
+    3300010: ShortWall1
+    3300012: ShortWall2
+    3300014: ShortWall3
+    3300016: ShortWall4
+    3300018: Wall005
+    3300020: Wall3
+    3300022: WallBBed
+    3300024: WallBEnt
+    3300026: WallBKit
+    3300028: WallBLib
+    3300030: WallFBed
+    3300032: WallFEnt
+    3300034: WallFKit
+    3300036: WallFLib
+    3300038: WallLBed
+    3300040: WallLEnt
+    3300042: WallLKit
+    3300044: WallLLib
+    3300046: WallRBed
+    3300048: WallREnt
+    3300050: WallRKit
+    3300052: WallRLib
+    4300000: Wall3
+    4300002: ShortWall2
+    4300004: ShortWall3
+    4300006: ShortWall1
+    4300008: ShortWall4
+    4300010: WallFLib
+    4300012: ShortWall005
+    4300014: FloorLib
+    4300016: Wall005
+    4300018: WallLLib
+    4300020: WallRLib
+    4300022: WallBLib
+    4300024: WallLBed
+    4300026: WallBBed
+    4300028: WallFBed
+    4300030: WallRBed
+    4300032: FloorBed
+    4300034: WallRKit
+    4300036: WallFKit
+    4300038: FloorKit
+    4300040: WallBKit
+    4300042: WallLKit
+    4300044: WallREnt
+    4300046: WallFEnt
+    4300048: FloorEnt
+    4300050: WallLEnt
+    4300052: WallBEnt
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
