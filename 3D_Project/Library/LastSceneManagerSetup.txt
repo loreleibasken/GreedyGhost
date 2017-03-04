@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/StartScreen.unity
+- path: Assets/GameOverScreen.unity
   isLoaded: 1
   isActive: 1
