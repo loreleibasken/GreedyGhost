@@ -1,5 +1,8 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: getPlatforms
+<<<<<<< HEAD
 Unhandled exception: Protocol error - failed to read correct magic number
 
 Quitting shader compiler process
+=======
+>>>>>>> 2c7dc5e92ab452d904372445573dfd4203d931db
