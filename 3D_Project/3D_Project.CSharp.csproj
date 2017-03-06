@@ -89,7 +89,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraZoom.cs" />
     <Compile Include="Assets\Scripts\MouseOverColor.cs" />
+    <Compile Include="Assets\Scripts\Patron.cs" />
     <Compile Include="Assets\Scripts\PatronPathing.cs" />
+    <Compile Include="Assets\Scripts\PatronWaypoint.cs" />
     <Compile Include="Assets\Scripts\Prof. Scripts\AdvancedCharacter.cs" />
     <Compile Include="Assets\Scripts\Prof. Scripts\AnimatedItem.cs" />
     <Compile Include="Assets\Scripts\Prof. Scripts\BasicAction.cs" />
