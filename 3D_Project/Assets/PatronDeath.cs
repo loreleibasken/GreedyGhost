@@ -12,6 +12,7 @@ public class PatronDeath : MonoBehaviour {
             GameObject.Find("HUD").GetComponent<GameController>().ded += 1;
             
             Destroy(other.gameObject);
+            Application.LoadLevel("GameOverScreen");
         }
     }
     // Use this for initialization

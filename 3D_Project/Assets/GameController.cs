@@ -17,7 +17,7 @@ public class GameController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+        cash++;
         money.text = cash.ToString();
         reputation.text = rep.ToString();
         dead.text = ded.ToString();
