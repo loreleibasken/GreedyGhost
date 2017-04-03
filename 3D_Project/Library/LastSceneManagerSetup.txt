@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Lorelei's GameScene.unity
+- path: Assets/Game.unity
   isLoaded: 1
   isActive: 1
