@@ -9,7 +9,7 @@ public class PatronDeath : MonoBehaviour {
     {
         if (other.gameObject.tag == "NPC")
         {
-            GameObject.Find("HUD").GetComponent<GameController>().ded += 1;
+          //  GameObject.Find("HUD").GetComponent<GameController>().ded += 1;
             
             Destroy(other.gameObject);
             Application.LoadLevel("GameOverScreen");

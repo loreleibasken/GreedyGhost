@@ -28,7 +28,7 @@ public class Patron : MonoBehaviour
 	void Update () {
         if ((agent.transform.position - pos).magnitude <= waypointDetectRange) {
             if(current == exit) { //patron survived
-                GameObject.Find("HUD").GetComponent<GameController>().rep += 10;
+               // GameObject.Find("HUD").GetComponent<GameController>().rep += 10;
                 Destroy(transform.parent.gameObject);
             } else GotoNext();
         }
