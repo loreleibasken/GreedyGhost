@@ -87,6 +87,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GameController.cs" />
+    <Compile Include="Assets\PatronDeath.cs" />
     <Compile Include="Assets\PowerUp\Scripts\CustomizablePowerUp.cs" />
     <Compile Include="Assets\PowerUp\Scripts\PowerUpManager.cs" />
     <Compile Include="Assets\PowerUp\Scripts\PowerUpRotation.cs" />
@@ -94,7 +96,9 @@
     <Compile Include="Assets\PowerUp\Scripts\TakeablePowerUp.cs" />
     <Compile Include="Assets\PowerUp\Scripts\Utility\Singleton.cs" />
     <Compile Include="Assets\Scripts\CameraZoom.cs" />
+    <Compile Include="Assets\Scripts\ChangeDirection.cs" />
     <Compile Include="Assets\Scripts\Clickable.cs" />
+    <Compile Include="Assets\Scripts\DestroyObject.cs" />
     <Compile Include="Assets\Scripts\MouseOverColor.cs" />
     <Compile Include="Assets\Scripts\Patron.cs" />
     <Compile Include="Assets\Scripts\PatronPathing.cs" />
@@ -112,6 +116,7 @@
     <Compile Include="Assets\Scripts\Prof. Scripts\SaveData.cs" />
     <Compile Include="Assets\Scripts\Prof. Scripts\Weapon.cs" />
     <Compile Include="Assets\Scripts\SwitchScenes.cs" />
+    <Compile Include="Assets\Spawn.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />

@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Lorelei's GameScene.unity
+=======
+- path: Assets/Game.unity
+>>>>>>> a74aaf3d0c3cd3e081a7437e25aecf6ec5d95646
   isLoaded: 1
   isActive: 1
