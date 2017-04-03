@@ -1,8 +1,9 @@
-﻿<Properties StartupItem="3D_Project.CSharp.Plugins.csproj">
+﻿<Properties StartupItem="3D_Project.Plugins.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CameraZoom.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Prof. Scripts\Inventory.cs">
     <Files>
       <File FileName="Assets\Scripts\CameraZoom.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Prof. Scripts\Inventory.cs" Line="68" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
