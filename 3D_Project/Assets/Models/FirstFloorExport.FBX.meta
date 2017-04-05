@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: fed751702375031439ff104f65fad0a3
+timeCreated: 1491404676
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Back
+    100002: Bath/Den
+    100004: Bath/Kitchen
+    100006: BathStudy
+    100008: Dining/Kitchen
+    100010: //RootNode
+    100012: floor1
+    100014: Foyer/Dining
+    100016: Foyer/Hall
+    100018: Foyer/Study/Bath
+    100020: Front
+    100022: Hall/Bath
+    100024: Hall/Den
+    100026: Left
+    100028: PantryFront
+    100030: PantryLeft
+    100032: Right
+    100034: Stair1
+    100036: StudyHall
+    400000: Back
+    400002: Bath/Den
+    400004: Bath/Kitchen
+    400006: BathStudy
+    400008: Dining/Kitchen
+    400010: //RootNode
+    400012: floor1
+    400014: Foyer/Dining
+    400016: Foyer/Hall
+    400018: Foyer/Study/Bath
+    400020: Front
+    400022: Hall/Bath
+    400024: Hall/Den
+    400026: Left
+    400028: PantryFront
+    400030: PantryLeft
+    400032: Right
+    400034: Stair1
+    400036: StudyHall
+    2300000: Back
+    2300002: Bath/Den
+    2300004: Bath/Kitchen
+    2300006: BathStudy
+    2300008: Dining/Kitchen
+    2300010: floor1
+    2300012: Foyer/Dining
+    2300014: Foyer/Hall
+    2300016: Foyer/Study/Bath
+    2300018: Front
+    2300020: Hall/Bath
+    2300022: Hall/Den
+    2300024: Left
+    2300026: PantryFront
+    2300028: PantryLeft
+    2300030: Right
+    2300032: Stair1
+    2300034: StudyHall
+    3300000: Back
+    3300002: Bath/Den
+    3300004: Bath/Kitchen
+    3300006: BathStudy
+    3300008: Dining/Kitchen
+    3300010: floor1
+    3300012: Foyer/Dining
+    3300014: Foyer/Hall
+    3300016: Foyer/Study/Bath
+    3300018: Front
+    3300020: Hall/Bath
+    3300022: Hall/Den
+    3300024: Left
+    3300026: PantryFront
+    3300028: PantryLeft
+    3300030: Right
+    3300032: Stair1
+    3300034: StudyHall
+    4300000: floor1
+    4300002: Foyer/Study/Bath
+    4300004: Foyer/Hall
+    4300006: Front
+    4300008: Right
+    4300010: Left
+    4300012: Back
+    4300014: Foyer/Dining
+    4300016: Dining/Kitchen
+    4300018: BathStudy
+    4300020: StudyHall
+    4300022: Hall/Den
+    4300024: Hall/Bath
+    4300026: Bath/Den
+    4300028: Bath/Kitchen
+    4300030: PantryLeft
+    4300032: PantryFront
+    4300034: Stair1
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
