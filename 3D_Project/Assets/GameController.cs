@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 using System.Collections;
 
@@ -20,7 +21,7 @@ public class GameController : MonoBehaviour {
     IEnumerator countdown()
     {
         yield return new WaitForSeconds(3);
-        Application.LoadLevel("GameOverScreen");
+        SceneManager.LoadScene("GameOverScreen");
     }
 
 
