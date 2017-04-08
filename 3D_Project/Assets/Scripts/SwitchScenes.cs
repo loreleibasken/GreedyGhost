@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 
 public class SwitchScenes : MonoBehaviour {
@@ -7,16 +8,17 @@ public class SwitchScenes : MonoBehaviour {
     // note: do not swap Application for SceneManager
 	    public void loadGame()
     {
-        Application.LoadLevel("shaneproject");
+        SceneManager.LoadScene("Lorelei's GameScene");
     }
 
     public void endGame()
     {
-        Application.LoadLevel("GameOverScreen");
+        SceneManager.LoadScene("GameOverScreen");
     }
 
     public void startGame()
     {
-        Application.LoadLevel("StartScreen");
+      SceneManager.LoadScene("StartScreen");
     } 
+
 }
