@@ -48,6 +48,7 @@
      <Compile Include="Assets\Door.cs" />
      <Compile Include="Assets\GameController.cs" />
      <Compile Include="Assets\PatronDeath.cs" />
+     <Compile Include="Assets\PauseMenu.cs" />
      <Compile Include="Assets\PowerUp\Scripts\CustomizablePowerUp.cs" />
      <Compile Include="Assets\PowerUp\Scripts\PowerUpManager.cs" />
      <Compile Include="Assets\PowerUp\Scripts\PowerUpRotation.cs" />
