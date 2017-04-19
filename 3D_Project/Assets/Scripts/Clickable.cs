@@ -6,11 +6,30 @@ public class Clickable : MonoBehaviour {
     static Clickable currentHighlighted = null;
 
     public GameObject activeHighlight = null;
+    public GameObject notecanvas;
+    public bool noteup = false;
     public UnityEvent onLeftClick = new UnityEvent();
     public UnityEvent onRightClick = new UnityEvent();
+    public bool inArea = false;
 
     private Renderer rend = null;
     private Color defaultColor;
+
+    void OnTriggerEnter(Collider other)
+    {
+        if( other.tag == "Player")
+        {
+            inArea = true;
+        }
+    }
+    void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            if (rend) rend.material.color = defaultColor;
+            inArea = false;
+        }
+    }
     public void Start()
     {
         if (!rend) {
@@ -23,7 +42,7 @@ public class Clickable : MonoBehaviour {
     }
     public void OnMouseOver() {
         if (rend) {
-            rend.material.color = Color.red;
+           
             currentHighlighted = this;
         } else {
             if (rend) rend.material.color = defaultColor;
@@ -35,10 +54,25 @@ public class Clickable : MonoBehaviour {
         if (currentHighlighted == this) currentHighlighted = null;
     }
     void Update() {
-        if (currentHighlighted == this && (activeHighlight == null || activeHighlight.activeSelf))
+        if (inArea == true)
         {
-            if (Input.GetMouseButtonUp(0)) onLeftClick.Invoke();
-            else if (Input.GetMouseButtonUp(1)) onRightClick.Invoke();
+            rend.material.color = Color.gray;
+            if (Input.GetMouseButtonUp(0) && noteup == false)
+            {
+                noteup = true;
+                notecanvas.SetActive(true);
+                GameObject.Find("Player").GetComponent<Movement>().enabled = false;
+                GameObject.Find("Player").GetComponent<Rigidbody>().isKinematic = true;
+            }
+            else
+            if(Input.GetMouseButtonUp(0) && noteup == true)
+            {
+                noteup = false;
+                notecanvas.SetActive(false);
+                GameObject.Find("Player").GetComponent<Movement>().enabled = true;
+                GameObject.Find("Player").GetComponent<Rigidbody>().isKinematic = false;
+            }
+            //else if (Input.GetMouseButtonUp(1)) onRightClick.Invoke();
         }
 	}
 }
