@@ -12,21 +12,28 @@ public class Door : MonoBehaviour {
     public AudioClip doorsound;
 
 
-    void OnTriggerEnter (Collider other)
+    void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Player")
+        if (other.tag == "Player")
         {
             inArea = true;
+        }
+    }
+    void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            inArea = false;
         }
     }
 
 
 
-    void OnTriggerStay(Collider other)
+    void FixedUpdate()
     {
-        if(other.tag == "Player")
+        if(inArea)
         {
-            if(Input.GetKeyDown(KeyCode.E))
+            if(Input.GetKeyDown(KeyCode.E) && (ogdoor.activeSelf || ogdoor2.activeSelf))
             {
                 if(closed == true)
                 {
@@ -56,9 +63,4 @@ public class Door : MonoBehaviour {
         door2.SetActive(false);
         ogdoor2.SetActive(false);
     }
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

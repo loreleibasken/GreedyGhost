@@ -72,10 +72,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Door.cs" />
-    <Compile Include="Assets\GameController.cs" />
-    <Compile Include="Assets\PatronDeath.cs" />
-    <Compile Include="Assets\PauseMenu.cs" />
     <Compile Include="Assets\PowerUp\Scripts\CustomizablePowerUp.cs" />
     <Compile Include="Assets\PowerUp\Scripts\PowerUpManager.cs" />
     <Compile Include="Assets\PowerUp\Scripts\PowerUpRotation.cs" />
@@ -86,10 +82,15 @@
     <Compile Include="Assets\Scripts\ChangeDirection.cs" />
     <Compile Include="Assets\Scripts\Clickable.cs" />
     <Compile Include="Assets\Scripts\DestroyObject.cs" />
+    <Compile Include="Assets\Scripts\Door.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\LetThereBeLight.cs" />
     <Compile Include="Assets\Scripts\MouseOverColor.cs" />
     <Compile Include="Assets\Scripts\Patron.cs" />
+    <Compile Include="Assets\Scripts\PatronDeath.cs" />
     <Compile Include="Assets\Scripts\PatronPathing.cs" />
     <Compile Include="Assets\Scripts\PatronWaypoint.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Prof. Scripts\AdvancedCharacter.cs" />
     <Compile Include="Assets\Scripts\Prof. Scripts\AnimatedItem.cs" />
     <Compile Include="Assets\Scripts\Prof. Scripts\BasicAction.cs" />
@@ -103,10 +104,17 @@
     <Compile Include="Assets\Scripts\Prof. Scripts\SaveData.cs" />
     <Compile Include="Assets\Scripts\Prof. Scripts\Weapon.cs" />
     <Compile Include="Assets\Scripts\QuicktimeWords.cs" />
+    <Compile Include="Assets\Scripts\ShaneQTE.cs" />
+    <Compile Include="Assets\Scripts\Spawn.cs" />
+    <Compile Include="Assets\Scripts\StairScare.cs" />
     <Compile Include="Assets\Scripts\SwitchScenes.cs" />
-    <Compile Include="Assets\Spawn.cs" />
+    <Compile Include="Assets\Scripts\TurnOffLights.cs" />
+    <Compile Include="Assets\Scripts\Vaseswap.cs" />
+    <Compile Include="Assets\Scripts\cursor.cs" />
+    <Compile Include="Assets\Scripts\nocursor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Fonts\Read Me.txt" />
     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
   </ItemGroup>
