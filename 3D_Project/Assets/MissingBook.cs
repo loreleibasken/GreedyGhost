@@ -22,61 +22,64 @@ public class MissingBook : MonoBehaviour {
     public GameObject offsetpainting;
     public GameObject storagekey;
     public int x = 0;
+    public bool progressed = false;
 
 
     void OnTriggerStay(Collider other)
 
     {
-        
-        if (other.tag == "BlueBook" && redbookinhand == false && greenbookinhand == false && Input.GetKeyDown(KeyCode.E))
+        if (progressed == true)
         {
-            bluebook.SetActive(true);
-            bluemissing.SetActive(false);
-            bluebookinhand = true;
-        }
-        if (other.tag == "RedBook" && bluebookinhand == false && greenbookinhand == false && Input.GetKeyDown(KeyCode.E))
-        {
-            redbook.SetActive(true);
-            redmissing.SetActive(false);
-            redbookinhand = true;
-        }
-        if (other.tag == "GreenBook" && redbookinhand == false && bluebookinhand == false && Input.GetKeyDown(KeyCode.E))
-        {
-            greenbook.SetActive(true);
-            greenmissing.SetActive(false);
-            greenbookinhand = true;
-        }
 
-
-        if(other.tag == "Bookshelf")
-        {
-            if (redbookinhand == true)
+            if (other.tag == "BlueBook" && redbookinhand == false && greenbookinhand == false && Input.GetKeyDown(KeyCode.E))
             {
-                redshelf.SetActive(true);
-                redbook.SetActive(false);
-                redbookinhand = false;
-                redbookdelivered = true;
-
+                bluebook.SetActive(true);
+                bluemissing.SetActive(false);
+                bluebookinhand = true;
             }
-            if (bluebookinhand == true)
+            if (other.tag == "RedBook" && bluebookinhand == false && greenbookinhand == false && Input.GetKeyDown(KeyCode.E))
             {
-                blueshelf.SetActive(true);
-                bluebook.SetActive(false);
-                bluebookinhand = false;
-                bluebookdelievered = true;
-
+                redbook.SetActive(true);
+                redmissing.SetActive(false);
+                redbookinhand = true;
             }
-            if (greenbookinhand == true)
+            if (other.tag == "GreenBook" && redbookinhand == false && bluebookinhand == false && Input.GetKeyDown(KeyCode.E))
             {
-                greenshelf.SetActive(true);
-                greenbook.SetActive(false);
-                greenbookinhand = false;
-                greenbookdelivered = true;
-
+                greenbook.SetActive(true);
+                greenmissing.SetActive(false);
+                greenbookinhand = true;
             }
+
+
+            if (other.tag == "Bookshelf")
+            {
+                if (redbookinhand == true)
+                {
+                    redshelf.SetActive(true);
+                    redbook.SetActive(false);
+                    redbookinhand = false;
+                    redbookdelivered = true;
+
+                }
+                if (bluebookinhand == true)
+                {
+                    blueshelf.SetActive(true);
+                    bluebook.SetActive(false);
+                    bluebookinhand = false;
+                    bluebookdelievered = true;
+
+                }
+                if (greenbookinhand == true)
+                {
+                    greenshelf.SetActive(true);
+                    greenbook.SetActive(false);
+                    greenbookinhand = false;
+                    greenbookdelivered = true;
+
+                }
+            }
+
         }
-
-
     }
 	// Use this for initialization
 	void Start () {

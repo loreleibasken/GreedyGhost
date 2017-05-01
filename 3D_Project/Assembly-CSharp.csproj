@@ -45,7 +45,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BabyPickup.cs" />
      <Compile Include="Assets\BookcasePuzzle.cs" />
+     <Compile Include="Assets\Holder.cs" />
      <Compile Include="Assets\KeyPickup.cs" />
      <Compile Include="Assets\LockedDoor.cs" />
      <Compile Include="Assets\MissingBook.cs" />
@@ -62,6 +64,7 @@
      <Compile Include="Assets\Scripts\Door.cs" />
      <Compile Include="Assets\Scripts\EventObject.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\KeyInventory.cs" />
      <Compile Include="Assets\Scripts\LetThereBeLight.cs" />
      <Compile Include="Assets\Scripts\MouseOverColor.cs" />
      <Compile Include="Assets\Scripts\Patron.cs" />
@@ -83,6 +86,7 @@
      <Compile Include="Assets\Scripts\Prof. Scripts\Weapon.cs" />
      <Compile Include="Assets\Scripts\QuicktimeWords.cs" />
      <Compile Include="Assets\Scripts\ShaneQTE.cs" />
+     <Compile Include="Assets\Scripts\ShowKeys.cs" />
      <Compile Include="Assets\Scripts\Spawn.cs" />
      <Compile Include="Assets\Scripts\StairScare.cs" />
      <Compile Include="Assets\Scripts\SwitchScenes.cs" />
@@ -90,6 +94,7 @@
      <Compile Include="Assets\Scripts\Vaseswap.cs" />
      <Compile Include="Assets\Scripts\cursor.cs" />
      <Compile Include="Assets\Scripts\nocursor.cs" />
+     <Compile Include="Assets\progression.cs" />
      <None Include="Assets\Darkness and Horror Soundtrack\Read Me!.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Fonts\Read Me.txt" />

@@ -9,6 +9,7 @@ public class StairScare : MonoBehaviour {
     public GameObject overturnedcrib;
     public GameObject note;
     public bool activated = false;
+   
 
 
     void OnTriggerEnter(Collider other)
@@ -21,6 +22,8 @@ public class StairScare : MonoBehaviour {
             crib.SetActive(false);
             note.SetActive(true);
             overturnedcrib.SetActive(true);
+            GameObject.Find("Player").GetComponent<MissingBook>().progressed = true;
+          
         }
     }
 	// Use this for initialization

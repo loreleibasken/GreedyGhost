@@ -12,6 +12,20 @@ public class KeyPickup : MonoBehaviour {
     public GameObject storagedoorlocked;
     public GameObject storagedooropen;
     public GameObject storagekeycanvas;
+    public GameObject secretroomkey;
+    public GameObject secretroomdooropen;
+    public GameObject secretroomdoorlocked;
+    public GameObject secretroomcanvas;
+    public GameObject studykey;
+    public GameObject studydoorlocked1;
+    public GameObject studydoorlocked2;
+    public GameObject studydooropen1;
+    public GameObject studydooropen2;
+    public GameObject studycanvas;
+    public GameObject denkey;
+    public GameObject dendoorclosed;
+    public GameObject dendooropen;
+    public GameObject dendoorcanvas;
 
 
     IEnumerator BasementKeyCanvas()
@@ -26,6 +40,27 @@ public class KeyPickup : MonoBehaviour {
         storagekeycanvas.SetActive(true);
         yield return new WaitForSeconds(4);
         storagekeycanvas.SetActive(false);
+    }
+
+    IEnumerator SecretRoomKeyCanvas()
+    {
+        secretroomcanvas.SetActive(true);
+        yield return new WaitForSeconds(4);
+        secretroomcanvas.SetActive(false);
+    }
+
+    IEnumerator StudyKeyCanvas()
+    {
+        studycanvas.SetActive(true);
+        yield return new WaitForSeconds(4);
+        studycanvas.SetActive(false);
+    }
+
+    IEnumerator DenKeyCanvas()
+    {
+        dendoorcanvas.SetActive(true);
+        yield return new WaitForSeconds(4);
+        dendoorcanvas.SetActive(false);
     }
 
 
@@ -45,6 +80,32 @@ public class KeyPickup : MonoBehaviour {
             storagedoorlocked.SetActive(false);
             storagedooropen.SetActive(true);
             storagekey.SetActive(false);
+            haskey = true;
+        }
+        if (other.tag == "StudyKey")
+        {
+            StartCoroutine(StudyKeyCanvas());
+            studydoorlocked1.SetActive(false);
+            studydoorlocked2.SetActive(false);
+            studydooropen1.SetActive(true);
+            studydooropen2.SetActive(true);
+            studykey.SetActive(false);
+            haskey = true;
+        }
+        if (other.tag == "SecretRoomKey")
+        {
+            StartCoroutine(SecretRoomKeyCanvas());
+            secretroomdoorlocked.SetActive(false);
+            secretroomdooropen.SetActive(true);
+            secretroomkey.SetActive(false);
+            haskey = true;
+        }
+        if (other.tag == "DenKey")
+        {
+            StartCoroutine(DenKeyCanvas());
+            dendoorclosed.SetActive(false);
+            dendooropen.SetActive(true);
+            denkey.SetActive(false);
             haskey = true;
         }
     }
