@@ -1,0 +1,714 @@
+fileFormatVersion: 2
+guid: b84890a992d23364891e0740ab8ab411
+timeCreated: 1493590828
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: end
+    100004: eye_L
+    100006: eye_R
+    100008: eye_target
+    100010: EyeL
+    100012: EyeR
+    100014: FrontBack
+    100016: FrontFront
+    100018: L_arm_1_clavicle
+    100020: L_arm_2_bicep
+    100022: L_arm_3_forearm
+    100024: L_arm_4_wrist
+    100026: L_arm_clavicle
+    100028: L_arm_elbow
+    100030: L_arm_shoulder
+    100032: L_arm_wrist
+    100034: L_foot_IK_Chain
+    100036: L_hand_1_fingers_carpal
+    100038: L_hand_1_index_carpal
+    100040: L_hand_1_thumb_carpal
+    100042: L_hand_2_fingers_proximal
+    100044: L_hand_2_index_proximal
+    100046: L_hand_2_thumb_proximal
+    100048: L_hand_3_fingers_distal
+    100050: L_hand_3_index_distal
+    100052: L_hand_3_thumb_distal
+    100054: L_hand_4_fingers_end
+    100056: L_hand_4_index_end
+    100058: L_hand_4_thumb_end
+    100060: L_hand_fingers_base
+    100062: L_hand_fingers_tip
+    100064: L_hand_index_base
+    100066: L_hand_index_tip
+    100068: L_hand_thumb_base
+    100070: L_hand_thumb_tip
+    100072: L_leg_1_thigh
+    100074: L_leg_2_calf
+    100076: L_leg_3_foot
+    100078: L_leg_4_toe
+    100080: L_leg_5_end
+    100082: L_leg_ankle
+    100084: L_leg_IK_Chain
+    100086: L_leg_knee
+    100088: L_leg_toe
+    100090: Plane002
+    100092: Plane003
+    100094: //RootNode
+    100096: R_arm_1_clavicle
+    100098: R_arm_2_bicep
+    100100: R_arm_3_forearm
+    100102: R_arm_4_wrist
+    100104: R_arm_clavicle
+    100106: R_arm_elbow
+    100108: R_arm_shoulder
+    100110: R_arm_wrist
+    100112: R_foot_IK_Chain
+    100114: R_hand_1_fingers_carpal
+    100116: R_hand_1_index_carpal
+    100118: R_hand_1_thumb_carpal
+    100120: R_hand_2_fingers_proximal
+    100122: R_hand_2_index_proximal
+    100124: R_hand_2_thumb_proximal
+    100126: R_hand_3_fingers_distal
+    100128: R_hand_3_index_distal
+    100130: R_hand_3_thumb_distal
+    100132: R_hand_4_fingers_end
+    100134: R_hand_4_index_end
+    100136: R_hand_4_thumb_end
+    100138: R_hand_fingers_base
+    100140: R_hand_fingers_tip
+    100142: R_hand_index_base
+    100144: R_hand_index_tip
+    100146: R_hand_thumb_base
+    100148: R_hand_thumb_tip
+    100150: R_leg_1_thigh
+    100152: R_leg_2_calf
+    100154: R_leg_3_foot
+    100156: R_leg_4_toe
+    100158: R_leg_5_end
+    100160: R_leg_ankle
+    100162: R_leg_IK_Chainn
+    100164: R_leg_knee
+    100166: R_leg_toe
+    100168: Spine_1_root
+    100170: Spine_2_stomach
+    100172: Spine_3_chest
+    100174: Spine_4_neck
+    100176: Spine_5_head
+    100178: spine_chest
+    100180: spine_head
+    100182: spine_neck
+    100184: spine_root
+    100186: spine_stomach
+    400000: Body
+    400002: end
+    400004: eye_L
+    400006: eye_R
+    400008: eye_target
+    400010: EyeL
+    400012: EyeR
+    400014: FrontBack
+    400016: FrontFront
+    400018: L_arm_1_clavicle
+    400020: L_arm_2_bicep
+    400022: L_arm_3_forearm
+    400024: L_arm_4_wrist
+    400026: L_arm_clavicle
+    400028: L_arm_elbow
+    400030: L_arm_shoulder
+    400032: L_arm_wrist
+    400034: L_foot_IK_Chain
+    400036: L_hand_1_fingers_carpal
+    400038: L_hand_1_index_carpal
+    400040: L_hand_1_thumb_carpal
+    400042: L_hand_2_fingers_proximal
+    400044: L_hand_2_index_proximal
+    400046: L_hand_2_thumb_proximal
+    400048: L_hand_3_fingers_distal
+    400050: L_hand_3_index_distal
+    400052: L_hand_3_thumb_distal
+    400054: L_hand_4_fingers_end
+    400056: L_hand_4_index_end
+    400058: L_hand_4_thumb_end
+    400060: L_hand_fingers_base
+    400062: L_hand_fingers_tip
+    400064: L_hand_index_base
+    400066: L_hand_index_tip
+    400068: L_hand_thumb_base
+    400070: L_hand_thumb_tip
+    400072: L_leg_1_thigh
+    400074: L_leg_2_calf
+    400076: L_leg_3_foot
+    400078: L_leg_4_toe
+    400080: L_leg_5_end
+    400082: L_leg_ankle
+    400084: L_leg_IK_Chain
+    400086: L_leg_knee
+    400088: L_leg_toe
+    400090: Plane002
+    400092: Plane003
+    400094: //RootNode
+    400096: R_arm_1_clavicle
+    400098: R_arm_2_bicep
+    400100: R_arm_3_forearm
+    400102: R_arm_4_wrist
+    400104: R_arm_clavicle
+    400106: R_arm_elbow
+    400108: R_arm_shoulder
+    400110: R_arm_wrist
+    400112: R_foot_IK_Chain
+    400114: R_hand_1_fingers_carpal
+    400116: R_hand_1_index_carpal
+    400118: R_hand_1_thumb_carpal
+    400120: R_hand_2_fingers_proximal
+    400122: R_hand_2_index_proximal
+    400124: R_hand_2_thumb_proximal
+    400126: R_hand_3_fingers_distal
+    400128: R_hand_3_index_distal
+    400130: R_hand_3_thumb_distal
+    400132: R_hand_4_fingers_end
+    400134: R_hand_4_index_end
+    400136: R_hand_4_thumb_end
+    400138: R_hand_fingers_base
+    400140: R_hand_fingers_tip
+    400142: R_hand_index_base
+    400144: R_hand_index_tip
+    400146: R_hand_thumb_base
+    400148: R_hand_thumb_tip
+    400150: R_leg_1_thigh
+    400152: R_leg_2_calf
+    400154: R_leg_3_foot
+    400156: R_leg_4_toe
+    400158: R_leg_5_end
+    400160: R_leg_ankle
+    400162: R_leg_IK_Chainn
+    400164: R_leg_knee
+    400166: R_leg_toe
+    400168: Spine_1_root
+    400170: Spine_2_stomach
+    400172: Spine_3_chest
+    400174: Spine_4_neck
+    400176: Spine_5_head
+    400178: spine_chest
+    400180: spine_head
+    400182: spine_neck
+    400184: spine_root
+    400186: spine_stomach
+    2300000: EyeL
+    2300002: EyeR
+    2300004: FrontBack
+    2300006: FrontFront
+    2300008: Plane002
+    2300010: Plane003
+    3300000: EyeL
+    3300002: EyeR
+    3300004: FrontBack
+    3300006: FrontFront
+    3300008: Plane002
+    3300010: Plane003
+    4300000: FrontBack
+    4300002: Plane002
+    4300004: Plane003
+    4300006: FrontFront
+    4300008: Body
+    4300010: EyeL
+    4300012: EyeR
+    7400000: SnapPic
+    7400002: Idle
+    9500000: //RootNode
+    13700000: Body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SnapPic
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: eye_target
+        weight: 1
+      - path: eye_target/eye_L
+        weight: 1
+      - path: eye_target/eye_R
+        weight: 1
+      - path: FrontBack
+        weight: 1
+      - path: FrontFront
+        weight: 1
+      - path: L_leg_ankle
+        weight: 1
+      - path: L_leg_ankle/L_leg_IK_Chain
+        weight: 1
+      - path: L_leg_ankle/L_leg_toe
+        weight: 1
+      - path: L_leg_ankle/L_leg_toe/L_foot_IK_Chain
+        weight: 1
+      - path: L_leg_knee
+        weight: 1
+      - path: Plane002
+        weight: 1
+      - path: Plane003
+        weight: 1
+      - path: R_leg_ankle
+        weight: 1
+      - path: R_leg_ankle/R_leg_IK_Chainn
+        weight: 1
+      - path: R_leg_ankle/R_leg_toe
+        weight: 1
+      - path: R_leg_ankle/R_leg_toe/R_foot_IK_Chain
+        weight: 1
+      - path: R_leg_knee
+        weight: 1
+      - path: spine_root
+        weight: 1
+      - path: spine_root/L_leg_1_thigh
+        weight: 1
+      - path: spine_root/L_leg_1_thigh/L_leg_2_calf
+        weight: 1
+      - path: spine_root/L_leg_1_thigh/L_leg_2_calf/L_leg_3_foot
+        weight: 1
+      - path: spine_root/L_leg_1_thigh/L_leg_2_calf/L_leg_3_foot/L_leg_4_toe
+        weight: 1
+      - path: spine_root/L_leg_1_thigh/L_leg_2_calf/L_leg_3_foot/L_leg_4_toe/L_leg_5_end
+        weight: 1
+      - path: spine_root/R_leg_1_thigh
+        weight: 1
+      - path: spine_root/R_leg_1_thigh/R_leg_2_calf
+        weight: 1
+      - path: spine_root/R_leg_1_thigh/R_leg_2_calf/R_leg_3_foot
+        weight: 1
+      - path: spine_root/R_leg_1_thigh/R_leg_2_calf/R_leg_3_foot/R_leg_4_toe
+        weight: 1
+      - path: spine_root/R_leg_1_thigh/R_leg_2_calf/R_leg_3_foot/R_leg_4_toe/R_leg_5_end
+        weight: 1
+      - path: spine_root/Spine_1_root
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_fingers_carpal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_fingers_carpal/L_hand_2_fingers_proximal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_fingers_carpal/L_hand_2_fingers_proximal/L_hand_3_fingers_distal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_fingers_carpal/L_hand_2_fingers_proximal/L_hand_3_fingers_distal/L_hand_4_fingers_end
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_index_carpal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_index_carpal/L_hand_2_index_proximal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_index_carpal/L_hand_2_index_proximal/L_hand_3_index_distal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_index_carpal/L_hand_2_index_proximal/L_hand_3_index_distal/L_hand_4_index_end
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_thumb_carpal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_thumb_carpal/L_hand_2_thumb_proximal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_thumb_carpal/L_hand_2_thumb_proximal/L_hand_3_thumb_distal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_thumb_carpal/L_hand_2_thumb_proximal/L_hand_3_thumb_distal/L_hand_4_thumb_end
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_fingers_carpal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_fingers_carpal/R_hand_2_fingers_proximal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_fingers_carpal/R_hand_2_fingers_proximal/R_hand_3_fingers_distal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_fingers_carpal/R_hand_2_fingers_proximal/R_hand_3_fingers_distal/R_hand_4_fingers_end
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_index_carpal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_index_carpal/R_hand_2_index_proximal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_index_carpal/R_hand_2_index_proximal/R_hand_3_index_distal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_index_carpal/R_hand_2_index_proximal/R_hand_3_index_distal/R_hand_4_index_end
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_thumb_carpal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_thumb_carpal/R_hand_2_thumb_proximal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_thumb_carpal/R_hand_2_thumb_proximal/R_hand_3_thumb_distal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_thumb_carpal/R_hand_2_thumb_proximal/R_hand_3_thumb_distal/R_hand_4_thumb_end
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/Spine_4_neck
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/Spine_4_neck/Spine_5_head
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/Spine_4_neck/Spine_5_head/end
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/Spine_4_neck/Spine_5_head/EyeL
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/Spine_4_neck/Spine_5_head/EyeR
+        weight: 1
+      - path: spine_root/spine_stomach
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle/L_arm_shoulder
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle/L_arm_shoulder/L_arm_elbow
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle/L_arm_shoulder/L_arm_elbow/L_arm_wrist
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle/L_arm_shoulder/L_arm_elbow/L_arm_wrist/L_hand_fingers_base
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle/L_arm_shoulder/L_arm_elbow/L_arm_wrist/L_hand_fingers_base/L_hand_fingers_tip
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle/L_arm_shoulder/L_arm_elbow/L_arm_wrist/L_hand_index_base
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle/L_arm_shoulder/L_arm_elbow/L_arm_wrist/L_hand_index_base/L_hand_index_tip
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle/L_arm_shoulder/L_arm_elbow/L_arm_wrist/L_hand_thumb_base
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle/L_arm_shoulder/L_arm_elbow/L_arm_wrist/L_hand_thumb_base/L_hand_thumb_tip
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle/R_arm_shoulder
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle/R_arm_shoulder/R_arm_elbow
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle/R_arm_shoulder/R_arm_elbow/R_arm_wrist
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle/R_arm_shoulder/R_arm_elbow/R_arm_wrist/R_hand_fingers_base
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle/R_arm_shoulder/R_arm_elbow/R_arm_wrist/R_hand_fingers_base/R_hand_fingers_tip
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle/R_arm_shoulder/R_arm_elbow/R_arm_wrist/R_hand_index_base
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle/R_arm_shoulder/R_arm_elbow/R_arm_wrist/R_hand_index_base/R_hand_index_tip
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle/R_arm_shoulder/R_arm_elbow/R_arm_wrist/R_hand_thumb_base
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle/R_arm_shoulder/R_arm_elbow/R_arm_wrist/R_hand_thumb_base/R_hand_thumb_tip
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/spine_head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: -4
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: eye_target
+        weight: 1
+      - path: eye_target/eye_L
+        weight: 1
+      - path: eye_target/eye_R
+        weight: 1
+      - path: FrontBack
+        weight: 1
+      - path: FrontFront
+        weight: 1
+      - path: L_leg_ankle
+        weight: 1
+      - path: L_leg_ankle/L_leg_IK_Chain
+        weight: 1
+      - path: L_leg_ankle/L_leg_toe
+        weight: 1
+      - path: L_leg_ankle/L_leg_toe/L_foot_IK_Chain
+        weight: 1
+      - path: L_leg_knee
+        weight: 1
+      - path: Plane002
+        weight: 1
+      - path: Plane003
+        weight: 1
+      - path: R_leg_ankle
+        weight: 1
+      - path: R_leg_ankle/R_leg_IK_Chainn
+        weight: 1
+      - path: R_leg_ankle/R_leg_toe
+        weight: 1
+      - path: R_leg_ankle/R_leg_toe/R_foot_IK_Chain
+        weight: 1
+      - path: R_leg_knee
+        weight: 1
+      - path: spine_root
+        weight: 1
+      - path: spine_root/L_leg_1_thigh
+        weight: 1
+      - path: spine_root/L_leg_1_thigh/L_leg_2_calf
+        weight: 1
+      - path: spine_root/L_leg_1_thigh/L_leg_2_calf/L_leg_3_foot
+        weight: 1
+      - path: spine_root/L_leg_1_thigh/L_leg_2_calf/L_leg_3_foot/L_leg_4_toe
+        weight: 1
+      - path: spine_root/L_leg_1_thigh/L_leg_2_calf/L_leg_3_foot/L_leg_4_toe/L_leg_5_end
+        weight: 1
+      - path: spine_root/R_leg_1_thigh
+        weight: 1
+      - path: spine_root/R_leg_1_thigh/R_leg_2_calf
+        weight: 1
+      - path: spine_root/R_leg_1_thigh/R_leg_2_calf/R_leg_3_foot
+        weight: 1
+      - path: spine_root/R_leg_1_thigh/R_leg_2_calf/R_leg_3_foot/R_leg_4_toe
+        weight: 1
+      - path: spine_root/R_leg_1_thigh/R_leg_2_calf/R_leg_3_foot/R_leg_4_toe/R_leg_5_end
+        weight: 1
+      - path: spine_root/Spine_1_root
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_fingers_carpal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_fingers_carpal/L_hand_2_fingers_proximal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_fingers_carpal/L_hand_2_fingers_proximal/L_hand_3_fingers_distal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_fingers_carpal/L_hand_2_fingers_proximal/L_hand_3_fingers_distal/L_hand_4_fingers_end
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_index_carpal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_index_carpal/L_hand_2_index_proximal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_index_carpal/L_hand_2_index_proximal/L_hand_3_index_distal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_index_carpal/L_hand_2_index_proximal/L_hand_3_index_distal/L_hand_4_index_end
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_thumb_carpal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_thumb_carpal/L_hand_2_thumb_proximal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_thumb_carpal/L_hand_2_thumb_proximal/L_hand_3_thumb_distal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/L_arm_1_clavicle/L_arm_2_bicep/L_arm_3_forearm/L_arm_4_wrist/L_hand_1_thumb_carpal/L_hand_2_thumb_proximal/L_hand_3_thumb_distal/L_hand_4_thumb_end
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_fingers_carpal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_fingers_carpal/R_hand_2_fingers_proximal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_fingers_carpal/R_hand_2_fingers_proximal/R_hand_3_fingers_distal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_fingers_carpal/R_hand_2_fingers_proximal/R_hand_3_fingers_distal/R_hand_4_fingers_end
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_index_carpal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_index_carpal/R_hand_2_index_proximal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_index_carpal/R_hand_2_index_proximal/R_hand_3_index_distal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_index_carpal/R_hand_2_index_proximal/R_hand_3_index_distal/R_hand_4_index_end
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_thumb_carpal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_thumb_carpal/R_hand_2_thumb_proximal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_thumb_carpal/R_hand_2_thumb_proximal/R_hand_3_thumb_distal
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/R_arm_1_clavicle/R_arm_2_bicep/R_arm_3_forearm/R_arm_4_wrist/R_hand_1_thumb_carpal/R_hand_2_thumb_proximal/R_hand_3_thumb_distal/R_hand_4_thumb_end
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/Spine_4_neck
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/Spine_4_neck/Spine_5_head
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/Spine_4_neck/Spine_5_head/end
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/Spine_4_neck/Spine_5_head/EyeL
+        weight: 1
+      - path: spine_root/Spine_1_root/Spine_2_stomach/Spine_3_chest/Spine_4_neck/Spine_5_head/EyeR
+        weight: 1
+      - path: spine_root/spine_stomach
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle/L_arm_shoulder
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle/L_arm_shoulder/L_arm_elbow
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle/L_arm_shoulder/L_arm_elbow/L_arm_wrist
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle/L_arm_shoulder/L_arm_elbow/L_arm_wrist/L_hand_fingers_base
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle/L_arm_shoulder/L_arm_elbow/L_arm_wrist/L_hand_fingers_base/L_hand_fingers_tip
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle/L_arm_shoulder/L_arm_elbow/L_arm_wrist/L_hand_index_base
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle/L_arm_shoulder/L_arm_elbow/L_arm_wrist/L_hand_index_base/L_hand_index_tip
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle/L_arm_shoulder/L_arm_elbow/L_arm_wrist/L_hand_thumb_base
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/L_arm_clavicle/L_arm_shoulder/L_arm_elbow/L_arm_wrist/L_hand_thumb_base/L_hand_thumb_tip
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle/R_arm_shoulder
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle/R_arm_shoulder/R_arm_elbow
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle/R_arm_shoulder/R_arm_elbow/R_arm_wrist
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle/R_arm_shoulder/R_arm_elbow/R_arm_wrist/R_hand_fingers_base
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle/R_arm_shoulder/R_arm_elbow/R_arm_wrist/R_hand_fingers_base/R_hand_fingers_tip
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle/R_arm_shoulder/R_arm_elbow/R_arm_wrist/R_hand_index_base
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle/R_arm_shoulder/R_arm_elbow/R_arm_wrist/R_hand_index_base/R_hand_index_tip
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle/R_arm_shoulder/R_arm_elbow/R_arm_wrist/R_hand_thumb_base
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/R_arm_clavicle/R_arm_shoulder/R_arm_elbow/R_arm_wrist/R_hand_thumb_base/R_hand_thumb_tip
+        weight: 1
+      - path: spine_root/spine_stomach/spine_chest/spine_neck/spine_head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

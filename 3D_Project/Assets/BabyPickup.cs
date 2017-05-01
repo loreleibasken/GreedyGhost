@@ -19,7 +19,7 @@ public class BabyPickup : MonoBehaviour {
     }
 	// Use this for initialization
 	void Start () {
-	
+        frontdoortrigger.SetActive(false);
 	}
 	
 	// Update is called once per frame

@@ -21,7 +21,7 @@ public class LetThereBeLight : MonoBehaviour {
     public GameObject spawnbox;
     public GameObject QTE;
     public GameObject sparks;
-
+    public GameObject QTEblock;
 
 
     void OnTriggerStay(Collider other)
@@ -29,6 +29,7 @@ public class LetThereBeLight : MonoBehaviour {
         if(other.tag == "Player")
         {
             inArea = true;
+            
         }
     }
     // Use this for initialization
@@ -40,6 +41,7 @@ public class LetThereBeLight : MonoBehaviour {
 	void Update () {
         if (Input.GetKeyDown(KeyCode.E) && inArea == true )
         {
+            Destroy(QTEblock);
             light1.SetActive(true);
             light2.SetActive(true);
             light3.SetActive(true);
