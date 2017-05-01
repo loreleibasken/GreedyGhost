@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class AnimatedItem : MonoBehaviour {
 	public enum ToggleMode { none, min, max, animStart, animEnd }
-	public enum AnimatedItemTrigger { Automatic, Click, Trigger, Impact, NoLocks, MouseToggle }
+	public enum AnimatedItemTrigger { Automatic, Click, Trigger, Impact, NoLocks, MouseToggle, None }
 	public AnimatedItemTrigger actOn = AnimatedItemTrigger.Click;
 	[HideInInspector] public float tact = 0;
 	public bool permanent = false;
