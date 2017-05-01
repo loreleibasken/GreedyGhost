@@ -9,6 +9,7 @@ public class EventObject : MonoBehaviour {
     public AnimatedItem animToRun = null;
     public QuicktimeWords eventToRun = null;
     public bool eventIsReplayable = false;
+    public bool animatesTowardPlayer = true;
     //private Movement mscript = null;
     private Vector3 rot;
     private float t = 0;
@@ -24,8 +25,9 @@ public class EventObject : MonoBehaviour {
         Vector3 dir = player.transform.position - eventToRun.gameObject.transform.position;
         float angle = Mathf.Rad2Deg * Mathf.Atan2(dir.x, dir.z);
         rot.y = Mathf.MoveTowardsAngle(rot.y, angle, turnSpeed * Time.deltaTime);
-        eventToRun.gameObject.transform.localEulerAngles = rot;
+        if(animatesTowardPlayer) eventToRun.gameObject.transform.localEulerAngles = rot;
         Vector3 prot = player.transform.localEulerAngles;
+        angle = Mathf.Rad2Deg * Mathf.Atan2(dir.x, -dir.z);
         prot.y = Mathf.MoveTowardsAngle(prot.y, -angle, turnSpeed * Time.deltaTime);
         player.transform.localEulerAngles = prot;
         //quicktime event is triggered after delay
