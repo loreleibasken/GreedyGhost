@@ -45,8 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BookcasePuzzle.cs" />
      <Compile Include="Assets\KeyPickup.cs" />
      <Compile Include="Assets\LockedDoor.cs" />
+     <Compile Include="Assets\MissingBook.cs" />
      <Compile Include="Assets\PowerUp\Scripts\CustomizablePowerUp.cs" />
      <Compile Include="Assets\PowerUp\Scripts\PowerUpManager.cs" />
      <Compile Include="Assets\PowerUp\Scripts\PowerUpRotation.cs" />
@@ -88,6 +90,7 @@
      <Compile Include="Assets\Scripts\Vaseswap.cs" />
      <Compile Include="Assets\Scripts\cursor.cs" />
      <Compile Include="Assets\Scripts\nocursor.cs" />
+     <None Include="Assets\Darkness and Horror Soundtrack\Read Me!.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Fonts\Read Me.txt" />
      <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
