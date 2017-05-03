@@ -28,7 +28,8 @@ public class MissingBook : MonoBehaviour {
     void OnTriggerStay(Collider other)
 
     {
-        if (progressed == true)
+       
+        if (GameObject.Find("Player").GetComponent<progression>().progressed = true)
         {
 
             if (other.tag == "BlueBook" && redbookinhand == false && greenbookinhand == false && Input.GetKeyDown(KeyCode.E))

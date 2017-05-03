@@ -22,7 +22,7 @@ public class StairScare : MonoBehaviour {
             crib.SetActive(false);
             note.SetActive(true);
             overturnedcrib.SetActive(true);
-            GameObject.Find("Player").GetComponent<MissingBook>().progressed = true;
+            
           
         }
     }

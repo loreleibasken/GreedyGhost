@@ -94,6 +94,8 @@
      <Compile Include="Assets\Scripts\Vaseswap.cs" />
      <Compile Include="Assets\Scripts\cursor.cs" />
      <Compile Include="Assets\Scripts\nocursor.cs" />
+     <Compile Include="Assets\SirenScript.cs" />
+     <Compile Include="Assets\TriggerCutsceneEnd.cs" />
      <Compile Include="Assets\progression.cs" />
      <None Include="Assets\Darkness and Horror Soundtrack\Read Me!.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />

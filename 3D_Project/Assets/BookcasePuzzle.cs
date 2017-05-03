@@ -29,6 +29,7 @@ public class BookcasePuzzle : MonoBehaviour {
         {
             if(Input.GetKeyDown(KeyCode.E))
             {
+                GameObject.Find("Player").GetComponent<progression>().progressed = true;
                 StartCoroutine(BookCanvas());
             }
         }

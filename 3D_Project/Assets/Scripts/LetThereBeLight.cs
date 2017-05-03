@@ -19,9 +19,15 @@ public class LetThereBeLight : MonoBehaviour {
     public GameObject flashlight;
     public bool inArea;
     public GameObject spawnbox;
-    public GameObject QTE;
+    
     public GameObject sparks;
     public GameObject QTEblock;
+    public GameObject QTE1;
+    public GameObject QTE2;
+    public GameObject QTE3;
+ 
+    public GameObject QTE5;
+    public GameObject QTE6;
 
 
     void OnTriggerStay(Collider other)
@@ -57,8 +63,15 @@ public class LetThereBeLight : MonoBehaviour {
             light13.SetActive(true);
             flashlight.SetActive(false);
             spawnbox.SetActive(true);
-            QTE.SetActive(true);
+            
             sparks.SetActive(false);
+            QTE1.SetActive(true);
+            QTE2.SetActive(true);
+            QTE3.SetActive(true);
+           
+            QTE5.SetActive(true);
+            QTE6.SetActive(true);
+
         }
     }
 }
