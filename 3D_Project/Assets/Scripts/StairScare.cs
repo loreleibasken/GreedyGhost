@@ -8,6 +8,7 @@ public class StairScare : MonoBehaviour {
     public GameObject crib;
     public GameObject overturnedcrib;
     public GameObject note;
+    public GameObject baby;
     public bool activated = false;
    
 
@@ -21,6 +22,7 @@ public class StairScare : MonoBehaviour {
             spook.PlayOneShot(bang);
             crib.SetActive(false);
             note.SetActive(true);
+            baby.SetActive(false);
             overturnedcrib.SetActive(true);
             
           

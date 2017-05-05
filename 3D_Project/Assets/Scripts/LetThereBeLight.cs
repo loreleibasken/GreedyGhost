@@ -16,10 +16,12 @@ public class LetThereBeLight : MonoBehaviour {
     public GameObject light11;
     public GameObject light12;
     public GameObject light13;
+    public GameObject light14;
+
     public GameObject flashlight;
     public bool inArea;
     public GameObject spawnbox;
-    
+    public GameObject checkpoint;
     public GameObject sparks;
     public GameObject QTEblock;
     public GameObject QTE1;
@@ -61,8 +63,10 @@ public class LetThereBeLight : MonoBehaviour {
             light11.SetActive(true);
             light12.SetActive(true);
             light13.SetActive(true);
+            light14.SetActive(true);
             flashlight.SetActive(false);
             spawnbox.SetActive(true);
+            checkpoint.SetActive(true);
             
             sparks.SetActive(false);
             QTE1.SetActive(true);

@@ -11,6 +11,8 @@ public class BabyPickup : MonoBehaviour {
     public GameObject QTE4;
     public GameObject music;
     public GameObject escapecanvas;
+    public GameObject checkpoint;
+    public GameObject oldcheckpoint;
 
 
     IEnumerator Escape()
@@ -32,6 +34,8 @@ public class BabyPickup : MonoBehaviour {
             QTE3.SetActive(true);
             QTE4.SetActive(true);
             music.SetActive(true);
+            checkpoint.SetActive(true);
+            oldcheckpoint.SetActive(false);
             StartCoroutine(Escape());
         }
     }

@@ -15,6 +15,7 @@ public class TurnOffLights : MonoBehaviour {
     public GameObject light11;
     public GameObject light12;
     public GameObject light13;
+    public GameObject light14;
     public GameObject flashlight;
     public AudioClip baby;
     public AudioClip mobile;
@@ -43,6 +44,7 @@ public class TurnOffLights : MonoBehaviour {
         light11.SetActive(false);
         light12.SetActive(false);
         light13.SetActive(false);
+        light14.SetActive(false);
         yield return new WaitForSeconds(3);
         babysounds.PlayOneShot(click);
         flashlight.SetActive(true);

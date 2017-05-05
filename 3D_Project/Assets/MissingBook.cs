@@ -23,6 +23,8 @@ public class MissingBook : MonoBehaviour {
     public GameObject storagekey;
     public int x = 0;
     public bool progressed = false;
+    public GameObject checkpoint;
+    public GameObject oldcheckpoint;
 
 
     void OnTriggerStay(Collider other)
@@ -95,6 +97,8 @@ public class MissingBook : MonoBehaviour {
             OGpainting.SetActive(false);
             offsetpainting.SetActive(true);
             storagekey.SetActive(true);
+            checkpoint.SetActive(true);
+            oldcheckpoint.SetActive(false);
             x = 1;
         }
 	}
